@@ -1,0 +1,9 @@
+type Greeting {
+    message: String!
+    name: String
+}
+
+type Query {
+    greet(name: String!): Greeting!
+    anonymousGreeting: String!
+}
